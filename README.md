@@ -90,6 +90,12 @@ All buttons in the application are fully interactive and display success message
 
 ## 📸 Screenshots
 
+<div align="center">
+  <img src="screenshots/app_screenshot.png" alt="Spacez Coupons Page" width="300"/>
+</div>
+
+*Coupons page showing available booking discounts, payment offers, and bottom booking bar with pricing details.*
+
 The app implements a pixel-perfect design matching the provided mockups with attention to detail in:
 - Typography and font weights
 - Spacing and padding
