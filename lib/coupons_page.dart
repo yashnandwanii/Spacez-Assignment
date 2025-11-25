@@ -15,7 +15,7 @@ class CouponsPage extends StatelessWidget {
       appBar: AppBar(
         
         backgroundColor: Colors.white,
-        elevation: 5.0, // Adjusted for shadow
+        elevation: 0.0, // Adjusted for shadow
          // Softer shadow
         leadingWidth: 150.w,
         leading: Padding(
@@ -118,9 +118,11 @@ class CouponsPage extends StatelessWidget {
           ),
         ),
       ),
+      backgroundColor: Colors.white,
       body: Column(
         children: [
           Expanded(
+            
             child: ListView(
               padding: EdgeInsets.symmetric(horizontal: 24.w, vertical: 16.h),
               children: [

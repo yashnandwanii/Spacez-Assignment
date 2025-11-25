@@ -104,7 +104,12 @@ class BottomFixedContainer extends StatelessWidget {
                           ),
                         ),
                         SizedBox(width: 4.w),
-                        Icon(Icons.edit_square, size: 16.sp, color: Color.fromRGBO(125, 129, 125, 1)),
+                        Image.asset(
+                'assets/icons/edit.png',
+                width: 16.w,
+                height: 16.h,
+                color: Color.fromRGBO(100, 104, 100, 1)
+              ),
                       ],
                     ),
                   ),
